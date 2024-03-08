@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "name": "s24wa34bales",
+  "description": "An attempt at creating a Web Service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webservice",
+    "test",
+    "project",
+    "studentwork"
+  ],
+  "author": "Kylie B.",
+  "license": "ISC"
+}
