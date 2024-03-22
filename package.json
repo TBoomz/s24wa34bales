@@ -1,21 +1,26 @@
 {
-  "dependencies": {
-    "express": "^4.18.3"
-  },
-  "name": "s24wa34bales",
-  "description": "An attempt at creating a Web Service",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "package",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "^4.3.4",
+    "express": "^4.19.1",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "description": "the package",
+  "main": "app.js",
   "keywords": [
-    "webservice",
     "test",
-    "project",
-    "studentwork"
+    "server",
+    "assignment",
+    "9"
   ],
-  "author": "Kylie B.",
+  "author": "Kylie Bales",
   "license": "ISC"
 }
